@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "Santi Empleo",
+    "description": "Conectando trabajos para la comunidad hispana.  Si buscas trabajo, tenemos trabajo.",
+    "slug": "santiempleo",
+    "privacy": "public",
+    "platforms": ["ios", "android"],
+    "version": "3.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/ios.png",
+    "splash": {
+      "image": "./assets/ios.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "bundleIdentifier": "com.santiempleo.app",
+      "buildNumber": "3.1.0",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.santiempleo.app",
+      "versionCode": 10,
+      "useNextNotificationsApi": true,
+      "icon": "./assets/expo-icon.png",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#00d4ff"
+      }
+    }
+  }
+}
